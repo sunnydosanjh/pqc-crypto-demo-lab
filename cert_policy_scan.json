@@ -1,0 +1,24 @@
+{
+  "tls_policy": {
+    "certificate_monitoring": true,
+    "expiration_tracking": true,
+
+    "accepted_algorithms": {
+      "rsa": true,
+      "ecdsa": true,
+      "ecdhe": true,
+
+      "ml_kem": false,
+      "ml_dsa": false
+    },
+
+    "quantum_readiness": {
+      "status": "NOT_READY",
+      "reason": "No post-quantum key exchange (ML-KEM missing)",
+      "risk_models": [
+        "RSA-2048 vulnerable in quantum era",
+        "ECDSA P-256 vulnerable in quantum era"
+      ]
+    }
+  }
+}
