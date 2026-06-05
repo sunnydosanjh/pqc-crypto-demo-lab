@@ -1,0 +1,21 @@
+{
+  "system": "secrets-demo",
+  "tls": {
+    "pqc_enabled": false,
+    "ml_kem_support": false,
+    "ml_dsa_support": false,
+    "hybrid_key_exchange": false
+  },
+  "detected_classical_crypto": [
+    "RSA",
+    "ECDSA",
+    "ECDH",
+    "AES",
+    "SHA-256"
+  ],
+  "risk_flags": [
+    "NO_POST_QUANTUM_KEY_EXCHANGE",
+    "CLASSICAL_ONLY_TLS",
+    "NO_ML-KEM_FOUND"
+  ]
+}
