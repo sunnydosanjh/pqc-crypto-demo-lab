@@ -1,0 +1,10 @@
+{
+  "tls": {
+    "minVersion": "TLS1.0",
+    "ciphers": [
+      "DES-CBC-SHA",
+      "RC4-SHA",
+      "MD5-SHA1"
+    ]
+  }
+}
