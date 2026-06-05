@@ -1,0 +1,27 @@
+{
+  "certificates": [
+    {
+      "type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "SHA256withRSA",
+      "pqc_ready": false
+    },
+    {
+      "type": "ECC",
+      "curve": "prime256v1",
+      "signature_algorithm": "ECDSA-SHA256",
+      "pqc_ready": false
+    },
+    {
+      "type": "LEGACY",
+      "signature_algorithm": "SHA1withRSA",
+      "risk": "CRITICAL",
+      "pqc_ready": false
+    }
+  ],
+  "pqc_status": {
+    "ml_kem": false,
+    "ml_dsa": false,
+    "hybrid_chain": false
+  }
+}
