@@ -1,0 +1,8 @@
+{
+  "name": "pqc-crypto-demo-lab",
+  "version": "1.0.0",
+  "dependencies": {
+    "crypto": "*",
+    "node-forge": "*"
+  }
+}
