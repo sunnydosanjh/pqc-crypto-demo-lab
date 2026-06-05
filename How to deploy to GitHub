@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "initial pqc scanner demo repo"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/pqc-crypto-demo-lab.git
+git push -u origin main
